@@ -26,6 +26,7 @@ public class AppConfig {
         //1번
         System.out.println("call AppConfig.orderService");
         return new OrderServiceImpl(memberRepository(), discountPolicy());
+        // return null;
     }
 
     @Bean
@@ -35,7 +36,7 @@ public class AppConfig {
         return new MemoryMemberRepository();
     }
 
-    @Bean
+    // @Bean
     public DiscountPolicy discountPolicy() {
         return new RateDiscountPolicy();
     }
