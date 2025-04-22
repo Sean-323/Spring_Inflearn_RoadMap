@@ -1,6 +1,6 @@
 package hello.core.autowired;
 
-import hello.core.AutoAppConfig;
+import hello.core.config.AutoAppConfig;
 import hello.core.discount.DiscountPolicy;
 import hello.core.member.Grade;
 import hello.core.member.Member;
